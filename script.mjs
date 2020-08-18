@@ -13,11 +13,15 @@ function createDiv(){
         addElement();
     }
 }
+function mouseOver(div) {
+    div.style.backgroundColor = "slateblue" ;
+  } 
 
-//function changeElementid(){
- //   document.getElementById("grid_square").id="blueGrid"
-//}
+const gridItems = document.querySelectorAll('div')
+gridItems.forEach((div) => {
+    div.addEventListener('mouseover',(e) =>{
+    mouseOver(div);
 
-document.getElementById('grid_square').addEventListener("mouseover", function(){
-    document.getElementsByClassName("grid").style.backgroundColor = "slateblue";
-})
+});
+});
+

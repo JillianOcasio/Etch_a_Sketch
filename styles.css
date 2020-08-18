@@ -10,11 +10,13 @@
 }
 
 .grid{
-    background-color: crimson;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
     text-align: center;
 }  
+#grid_square{
+    background-color: crimson;
+}
 h1{
     margin: auto;
     text-align: center;
