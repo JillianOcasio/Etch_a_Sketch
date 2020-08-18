@@ -1,0 +1,28 @@
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(16, 25px);
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    margin: auto;
+}
+
+.grid{
+    background-color: crimson;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+}  
+h1{
+    margin: auto;
+    text-align: center;
+}
+
+#blueGrid {
+    background-color: slateblue;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+}
