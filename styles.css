@@ -1,17 +1,17 @@
 
 .container{
     display: grid;
-    grid-template-columns: repeat(16, 25px);
-    width: 400px;
-    height: 400px;
-    padding: 10px;
+    /*grid-template-columns: repeat(16, 25px);*/
+    width: 500px;
+    height: 500px;
+    /*padding: 10px;*/
     border: 3px solid rgba(0, 0, 0, 0.8);
     margin: auto;
 }
 
 .grid{
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 10px;
+    /*padding: 10px;*/
     text-align: center;
 }  
 #grid_square{
@@ -27,4 +27,17 @@ h1{
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
     text-align: center;
+}
+button{
+    background-color: plum;  
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointe;
+    border-radius: 12px;
 }
