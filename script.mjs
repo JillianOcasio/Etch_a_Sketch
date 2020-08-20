@@ -22,7 +22,13 @@ function adjustContainer(rows, columns, boxSize){
     changeContainer.style.gridTemplateRows=`repeat(${columns}, 1fr)`
     var updateGrid= document.getElementsByClassName("grid")
 }
-
+//taken from https://dev.to/akhil_001/generating-random-color-with-single-line-of-js-code-fhj
+function generateRandomColor()
+{
+    var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+    return randomColor;
+    //random color will be freshly served
+}
 function createDiv(){
     for (let i = 0; i < (rows*columns); i++){
         addElement();
